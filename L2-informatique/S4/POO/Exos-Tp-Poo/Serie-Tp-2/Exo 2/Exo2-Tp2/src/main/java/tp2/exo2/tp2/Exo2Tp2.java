@@ -59,7 +59,7 @@ public class Exo2Tp2 {
                    point.MoveTo(new_pos_x, new_pos_y);
                    System.out.println("Position du Point changé vers  : ");
                    System.out.println("X :" + point.getX());
-                   System.out.println("Y : " + point.getY());1
+                   System.out.println("Y : " + point.getY());
                 }
             }catch(IllegalArgumentException e){
                 System.out.println("Erreur " + e.getMessage());
