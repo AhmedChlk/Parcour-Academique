@@ -1,0 +1,97 @@
+/* En-tête */
+header {
+    background-color: lightgrey;
+    font-family: sans-serif;
+    font-size: 2em;
+    border: 1px solid black;
+}
+
+
+.wrapper {
+    display: flex; /* Utiliser Flexbox pour le placement des éléments */
+    height: 500px;
+}
+
+/* Menu */
+.nav {
+    background-color: whitesmoke;
+    padding: 20px; /* Ajout de marge intérieure */
+    border: 1px solid black;
+}
+
+.nav ul {
+    list-style-type: none; /* Suppression des puces */
+    padding: 0; /* Suppression de la marge intérieure */
+    
+}
+
+.nav-item {
+    padding: 2px; /* Ajout de marge intérieure aux éléments du menu */
+}
+
+.nav a {
+    text-decoration: none; /* Suppression du soulignement par défaut */
+    color: black; /* Couleur de lien par défaut */
+}
+
+.nav a:hover {
+    color: magenta; /* Couleur de lien au survol */
+}
+
+/* Article */
+.article {
+    flex-grow: 1; /* L'article prendra autant d'espace disponible que possible */
+}
+
+/* À-côté */
+.aside {
+    width: 150px;
+    padding: 10px; /* Ajout de marge intérieure */
+    border: 1px solid magenta; /* Simplification de la bordure */
+    color: magenta;
+}
+
+/* Bas de page */
+.footer {
+    display: flex;
+    background-color: dimgrey;
+    color: white;
+    font-family: sans-serif;
+    justify-content: space-between;
+    font-size: 0.9em; /* Taille de police de 0.9em */
+    clear: both; /* Pour éviter que le footer ne flotte à côté du contenu */
+    padding: 10px; /* Ajout de rembourrage */
+}
+
+.mentions-legales {
+    color: white;
+    text-decoration: none;
+    margin-top: auto; /* Déplacer l'élément en bas */
+}
+
+.mentions-legales a {
+    color: white;
+    text-decoration: none;
+}
+
+.mentions-legales a:hover {
+    font-family: Georgia;
+    color: darkred; /* Couleur de lien au survol */
+}
+
+@media only screen and (max-width: 600px) {
+    /* Modifier la disposition en flexbox */
+    .wrapper {
+        flex-direction: column; /* Affichage en colonne pour les écrans plus petits */
+    }
+    .nav {
+        width: 100%;
+    }
+    .article {
+        width: 100%; 
+    }
+    .aside {
+        width: 100%;
+    }
+}
+

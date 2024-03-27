@@ -1,0 +1,95 @@
+.normal{
+    font-style:normal;
+    font-size: normal;
+}
+.oblique{
+    font-style: oblique ;
+}
+.italique{
+    font-style: italic;
+}
+.souligne{
+    text-decoration: underline;
+}
+.barre{
+    text-decoration: line-through;
+}
+.surligne{
+    text-decoration: overline;
+}
+/* Question 2 */
+.weight100 {
+    font-weight: 100;
+}
+
+.weight200 {
+    font-weight: 200;
+}
+
+.weight300 {
+    font-weight: 300;
+}
+
+.weight400 {
+    font-weight: 400;
+}
+
+.weight500 {
+    font-weight: 500;
+}
+
+.weight600 {
+    font-weight: 600;
+}
+
+.weight700 {
+    font-weight: 700;
+}
+
+.fontnormal {
+    font-weight: normal;
+}
+
+.fontbold {
+    font-weight: bold;
+}
+
+
+
+
+
+
+.xxsmall{
+    font-size: xx-small;
+}
+.xsmall{
+    font-size: x-small;
+}
+.small{
+    font-size: small;
+}
+.large{
+    font-size: large;
+}
+.xlarge{
+    font-size: x-large;
+}
+.xxlarge{
+    font-size: xx-large;
+}
+.f15px{
+    font-size: 15px;
+}
+.f2cm{
+    font-size: 2cm;
+}
+.f5em{
+    font-size: 5em;
+}
+.f5rm{
+    font-size: 5rem;
+}
+.f150{
+    font-size: 150%;
+}
+
